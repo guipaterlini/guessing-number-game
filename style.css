@@ -21,7 +21,7 @@ body {
 body::before {
   background-image: url("img/code.png");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
   content: "";
   display: block;
   position: absolute;
@@ -31,8 +31,10 @@ body::before {
 }
 
 .container {
-  width: 75rem;
-  height: 37.5rem;
+  width: 80%;
+  height: 80%;
+  max-width: 75rem;
+  max-height: 37.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -49,6 +51,10 @@ body::before {
   align-items: center;
   position: absolute;
   bottom: 0;
+}
+
+.container__conteudo img {
+    max-width: 50%;
 }
 
 .container__informacoes {

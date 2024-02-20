@@ -10,4 +10,4 @@ Este é um simples jogo de adivinhação desenvolvido em HTML, CSS e JavaScript,
 
 ## Como Jogar
 
-Acesse: 
+Acesse: https://guipaterlini.github.io/guessing-number-game/

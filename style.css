@@ -54,7 +54,7 @@ body::before {
 }
 
 .container__conteudo img {
-    max-width: 50%;
+  max-width: 50%;
 }
 
 .container__informacoes {
@@ -95,7 +95,8 @@ body::before {
 
 .container__texto {
   margin: 1.5rem 0 1.5rem 0;
-  padding: 1rem;
+  padding: 1rem 0 1rem 0;
+  height: 1rem;
 }
 
 h1 {
@@ -107,4 +108,15 @@ p,
 button,
 input {
   font-family: "Inter", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .container__conteudo img {
+    display: none;
+  }
+
+  .container__conteudo {
+    position: relative;
+    margin: 0 auto;
+  }
 }
